@@ -20,7 +20,7 @@ const Featured = () => {
                 </SectionTitle>
                 <SectionBody>
                         <Grid
-                            col="grid-cols-4"
+                            col="grid-cols-3"
                         >
                             {
                                 productData.getProducts(8).map((item, index) => (
